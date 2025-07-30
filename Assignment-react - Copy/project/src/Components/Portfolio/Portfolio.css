@@ -1,0 +1,28 @@
+.star-sec::before{
+    width: 80px;
+    height: 5px;
+    content: '';
+    display: inline-block;
+    background-color: #2C3E50;
+    margin-right: 5px;
+    transform: translateY(-3px);
+}
+
+.star-sec::after{
+    width: 80px;
+    height: 5px;
+    content: '';
+    display: inline-block;
+    background-color: #2C3E50;
+    margin-left: 5px;
+    transform: translateY(-3px);
+}
+
+.cover{
+    opacity: 0;
+    transition: opacity 0.3s linear;
+}
+
+.portfolio-item:hover .cover{
+    opacity: 1;
+}
